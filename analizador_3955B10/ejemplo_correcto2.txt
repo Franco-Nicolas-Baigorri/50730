@@ -1,0 +1,4 @@
+do {
+  puts("Inicio");
+} while (0);
+puts("Fin");
