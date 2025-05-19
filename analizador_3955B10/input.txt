@@ -1,0 +1,13 @@
+do {
+  puts("Primer bucle");
+} while (1);
+
+do {
+  puts("Segundo bucle");
+  break;
+  puts("Esto no debe verse");
+} while (1);
+
+do {
+  puts("Tercer bucle");
+} while (0);
