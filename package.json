@@ -1,0 +1,24 @@
+{
+  "name": "mini-javascript-interpreter",
+  "version": "1.0.0",
+  "description": "Intérprete simple para MiniJavaScript utilizando ANTLR4",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "antlr4 -Dlanguage=JavaScript -visitor -o ./generated MiniJavaScript.g4"
+  },
+  "keywords": [
+    "antlr4",
+    "interpreter",
+    "javascript",
+    "grammar",
+    "mini-language"
+  ],
+  "author": "TuNombre",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  },
+  "devDependencies": {}
+}

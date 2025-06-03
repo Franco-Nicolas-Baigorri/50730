@@ -1,0 +1,14 @@
+PARA EL INPUT.TXT
+
+2nombre = "Juan";
+output("Hola " Juan);
+
+switch(nombre) {
+  case Juan:
+    output("Bienvenido");
+}
+
+
+PARA EL INPUT.JS(por consola)
+
+2nombre = "Juan";output("Hola " Juan);switch(nombre) {  case Juan:    output("Bienvenido");}

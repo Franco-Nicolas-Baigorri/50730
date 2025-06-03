@@ -1,0 +1,28 @@
+PARA EL INPUT.TXT
+
+dia = 5;
+output("Evaluando el día...");
+
+switch(dia) {
+  case 1:
+    output("Lunes");
+  case 2:
+    output("Martes");
+  case 3:
+    output("Miércoles");
+  case 4:
+    output("Jueves");
+  case 5:
+    output("Viernes");
+  case 6:
+    output("Sábado");
+  case 7:
+    output("Domingo");
+  default:
+    output("Día inválido");
+}
+
+
+PARA EL INPUT.JS(por consola)
+
+dia = 5;output("Evaluando el día...");switch(dia) {  case 1:    output("Lunes");  case 2:    output("Martes");  case 3:    output("Miércoles");  case 4:    output("Jueves");  case 5:    output("Viernes");  case 6:    output("Sábado");  case 7:    output("Domingo");  default:    output("Día inválido"); }

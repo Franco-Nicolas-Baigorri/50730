@@ -1,0 +1,23 @@
+PARA EL INPUT.TXT
+
+modo = "manual";
+
+output("Configuración del modo:");
+
+switch(modo 
+  case "manual":
+    output("Modo Manual activado");
+  case "auto":
+    output("Modo Automático activado");
+default:
+    output("Modo desconocido");
+
+
+
+PARA EL INPUT.JS(por consola)
+
+modo = "manual";
+
+output("Configuración del modo:");
+
+switch(modo   case "manual":    output("Modo Manual activado");  case "auto":    output("Modo Automático activado");default:    output("Modo desconocido");

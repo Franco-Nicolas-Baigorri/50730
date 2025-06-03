@@ -1,0 +1,16 @@
+PARA EL INPUT.TXT
+
+estado = "activo";
+output("Estado del sistema:");
+switch(estado) {
+  case "activo": output("Sistema funcionando");
+  case "inactivo": output("Sistema detenido");
+  default: output("Estado desconocido");
+}
+modo = 1;
+output("Fin del programa.");
+
+
+PARA EL INPUT.JS(por consola)
+
+estado = "activo";output("Estado del sistema:");switch(estado) {  case "activo": output("Sistema funcionando");  case "inactivo": output("Sistema detenido");  default: output("Estado desconocido");}modo = 1;output("Fin del programa.");
